@@ -16,16 +16,28 @@ export default function Example() {
     <div className="bg-white">
       <header className="absolute inset-x-0 top-0 z-50">
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
-          <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
-              <img
-                className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                alt=""
-              />
-            </a>
-          </div>
+        <div className="flex lg:flex-1">
+  <a href="#" className="-m-1.5 p-1.5 flex items-center text-slate-950">
+    <span className="sr-only">PaperHub</span>
+    <svg
+      className="h-6 w-6 mr-2"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        d="M9 19v2a2 2 0 002 2h2a2 2 0 002-2v-2m-2 0v-7a3 3 0 00-3-3H7a3 3 0 00-3 3v7M9 12h2m-2 5h2m8-7v7a3 3 0 01-3 3h-2a3 3 0 01-3-3v-7m3 0v-2m0-2a2 2 0 00-2-2h-2a2 2 0 00-2 2v2m2 0h4m2 0v2m0 2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2m2 0h4"
+      ></path>
+    </svg>
+    <span className="text-xl font-bold text-blue-500">PaperHub</span>
+  </a>
+</div>
+
+
           <div className="flex lg:hidden">
             <button
               type="button"
